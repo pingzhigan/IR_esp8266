@@ -2,20 +2,20 @@
 通过mqtt自动配置，在homeassistant上自动添加空调，和温湿度检测
 
 ## 硬件
-ESP8266-e12开发板 x1
-DHT11 温湿度传感器 X1
-红外发射二极管   X1
+ESP8266-e12开发板      X1  
+DHT11 温湿度传感器     X1  
+红外发射二极管         X1  
 对应电路的电阻和杜邦线 若干
 
 ## 软件
-homeassistant环境
-Arduino IDE
-mqtt 服务器
+homeassistant环境  
+Arduino IDE  
+mqtt 服务器  
 
 ### 主要功能
-1.每分钟读取一次温湿度，自动上传到homeassistant
-2.控制空调（格力，其他品牌要修改）
-3.homeassistant自动发现空调和温湿度传感器
+1.每分钟读取一次温湿度，自动上传到homeassistant  
+2.控制空调（格力，其他品牌要修改）  
+3.homeassistant自动发现空调和温湿度传感器  
 
 
 ### 代码
