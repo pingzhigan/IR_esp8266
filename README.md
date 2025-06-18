@@ -1,5 +1,5 @@
 # IR_esp8266
-通过mqtt自动配置，在homeassistant上自动添加空调，和温湿度检测
+通过mqtt自动配置，在homeassistant上自动添加空调，和温湿度检测 
 
 ## 硬件
 ESP8266-e12开发板      X1  
